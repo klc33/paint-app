@@ -1,0 +1,25 @@
+body {
+	margin: 0;
+}
+
+
+#app {
+	display:grid; 
+	grid-template-columns:1fr 9fr;
+	grid-gap:20px;
+ 	background-color: black;
+	padding: 3em;
+
+}
+#control {
+	height: 85vh;
+	background-color: green;
+	border-radius:4px;
+
+
+}
+#board {
+	height: 85vh;
+	border-radius:4px;
+	background-color: white;
+}
